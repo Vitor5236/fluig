@@ -1,0 +1,67 @@
+.input-group-addon {
+    background-color: #58595b !important;
+    cursor: pointer;
+    color: white !important;
+    border-color: #58595b !important;
+    transition: .2s !important;
+}
+
+.input-group-addon:hover {
+    background-color: #3f4041 !important;
+    cursor: pointer;
+    color: white !important;
+    border-color: #3f4041 !important;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.signature-container {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box; 
+}
+
+.signature-pad {
+    border: 1px solid #000; 
+    border-radius: 4px;
+    width: 100%;
+    max-width: 100%;
+    height: 200px; 
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box; 
+}
+
+.btn-primary {
+    margin: 10px auto;
+    display: block;
+    width: auto;
+    max-width: 200px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .signature-container {
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+    .signature-pad {
+        height: auto;
+        min-height: 150px;
+    }
+    .btn-primary {
+        width: 100%;
+        padding: 12px 0;
+    }
+}
